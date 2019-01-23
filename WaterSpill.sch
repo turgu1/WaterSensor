@@ -6,11 +6,11 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "ESP8266 Water Spill Module"
-Date ""
-Rev "1.1"
+Date "2019-01-23"
+Rev "1.2"
 Comp ""
 Comment1 "Rev 1.1: Added CH_PD 6800pF Capacitor"
-Comment2 ""
+Comment2 "Rev 1.2: Added Active input at J2 through 2N3904 Transistor"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -26,7 +26,7 @@ F 3 "" H 3800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP8266:ESP-12E U1
+L WaterSpill-rescue:ESP-12E-ESP8266 U1
 U 1 1 5A7F1FAC
 P 5800 2250
 F 0 "U1" H 5800 2150 50  0000 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 750 5900 50  0001 C CNN
 	1    750  5900
 	1    0    0    -1  
 $EndComp
-Text Label 650  5300 0    60   ~ 0
+Text Label 850  5350 0    60   ~ 0
 WaterOrSmoke
 $Comp
 L WaterSpill-rescue:VCC-power #PWR03
@@ -435,8 +435,8 @@ F 3 "" H 9900 2600 50  0001 C CNN
 	1    9900 2600
 	-1   0    0    1   
 $EndComp
-Text Label 9000 3450 0    60   ~ 0
-NotUsed
+Text Label 9100 3450 0    60   ~ 0
+A2D
 Wire Wire Line
 	3800 1050 3800 1100
 Wire Wire Line
@@ -703,7 +703,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 5100 2600 5100
 $Comp
-L dk_Transistors-Bipolar-BJT-Single:2N3904 Q1
+L WaterSpill-rescue:2N3904-dk_Transistors-Bipolar-BJT-Single Q1
 U 1 1 5C47388D
 P 1250 6600
 F 0 "Q1" H 1438 6653 60  0000 L CNN

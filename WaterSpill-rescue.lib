@@ -1,6 +1,36 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 2N3904-dk_Transistors-Bipolar-BJT-Single
+#
+DEF 2N3904-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "2N3904-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
+F2 "digikey-footprints:TO-92-3" 200 200 60 H I L CNN
+F3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" 200 300 60 H I L CNN
+F4 "2N3904CS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "2N3904" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 40V TO-92" 200 1000 60 H I L CNN "Description"
+F11 "Central Semiconductor Corp" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X C 2 100 200 100 D 50 50 1 1 P
+X B 3 -200 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # 74LS132-74xx
 #
 DEF 74LS132-74xx U 0 30 Y Y 4 F N
@@ -159,6 +189,44 @@ P 2 0 1 0 50 0 -50 0 N
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ESP-12E-ESP8266
+#
+DEF ESP-12E-ESP8266 U 0 40 Y Y 1 F N
+F0 "U" 0 -100 50 H V C CNN
+F1 "ESP-12E-ESP8266" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ ESP-12E
+ ESP-12E_SMD
+$ENDFPLIST
+DRAW
+S -600 -600 600 600 1 0 0 N
+X REST 1 -900 300 300 R 50 50 1 1 I
+X GPIO15 10 900 -300 300 L 50 50 1 1 B
+X GPIO2 11 900 -200 300 L 50 50 1 1 B
+X GPIO0 12 900 -100 300 L 50 50 1 1 B
+X GPIO4 13 900 0 300 L 50 50 1 1 B
+X GPIO5 14 900 100 300 L 50 50 1 1 B
+X RXD 15 900 200 300 L 50 50 1 1 I
+X TXD 16 900 300 300 L 50 50 1 1 O
+X CS0 17 -250 -900 300 U 50 50 1 1 B
+X MISO 18 -150 -900 300 U 50 50 1 1 B
+X GPIO9 19 -50 -900 300 U 50 50 1 1 B
+X ADC 2 -900 200 300 R 50 50 1 1 P
+X GPIO10 20 50 -900 300 U 50 50 1 1 B
+X MOSI 21 150 -900 300 U 50 50 1 1 B
+X SCLK 22 250 -900 300 U 50 50 1 1 B
+X CH_PD 3 -900 100 300 R 50 50 1 1 I
+X GPIO16 4 -900 0 300 R 50 50 1 1 B
+X GPIO14 5 -900 -100 300 R 50 50 1 1 B
+X GPIO12 6 -900 -200 300 R 50 50 1 1 B
+X GPIO13 7 -900 -300 300 R 50 50 1 1 B
+X VCC 8 -900 -400 300 R 50 50 1 1 W
+X GND 9 900 -400 300 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
