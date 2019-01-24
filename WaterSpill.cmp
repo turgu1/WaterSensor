@@ -1,0 +1,235 @@
+Cmp-Mod V01 Created by PcbNew   date = Wednesday, January 23, 2019 at 05:41:36 pm
+
+BeginCmp
+TimeStamp = 5C4771A9
+Path = /5A7F5FF6
+Reference = BT1;
+ValeurCmp = Battery;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4771BA
+Path = /5A7F590E
+Reference = C1;
+ValeurCmp = 6800pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4771CB
+Path = /5A7F3CB0
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4771DC
+Path = /5A7F623A
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4771ED
+Path = /5A7F62B1
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4771FE
+Path = /5A7F73F3
+Reference = C5;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C47720F
+Path = /5A80865F
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477227
+Path = /5A7F2FA6
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = Diodes_SMD:D_SOD-323_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C47723E
+Path = /5A7F2E9F
+Reference = J1;
+ValeurCmp = FTDI;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477254
+Path = /5A7F3558
+Reference = J2;
+ValeurCmp = Water_Smoke;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C47726B
+Path = /5A7F754A
+Reference = J3;
+ValeurCmp = A2D;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477282
+Path = /5C48A0D2
+Reference = J4;
+ValeurCmp = DeepSleep;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C47928B
+Path = /5C523429
+Reference = J5;
+ValeurCmp = Water_JMPR;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4772AD
+Path = /5C47388D
+Reference = Q1;
+ValeurCmp = 2N3904;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4791E7
+Path = /5A7F2250
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4772CF
+Path = /5A7F227C
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C478B17
+Path = /5A7F5D84
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4772F1
+Path = /5A7F243A
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477302
+Path = /5A7F25DE
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477313
+Path = /5A7F233B
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477324
+Path = /5A7F371D
+Reference = R7;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477335
+Path = /5C4E5B99
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477346
+Path = /5A7F3DC8
+Reference = R9;
+ValeurCmp = 4M7;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477357
+Path = /5A7F74D9
+Reference = R10;
+ValeurCmp = 330K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477368
+Path = /5A7F735A
+Reference = R11;
+ValeurCmp = 130K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C477383
+Path = /5A7F2ABE
+Reference = SW1;
+ValeurCmp = PGM;
+IdModule  = Buttons_Switches_SMD:SW_SPST_FSMSM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C47739E
+Path = /5A7F2BA8
+Reference = SW2;
+ValeurCmp = RESET;
+IdModule  = Buttons_Switches_SMD:SW_SPST_FSMSM;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4773CC
+Path = /5A7F1FAC
+Reference = U1;
+ValeurCmp = ESP-12E;
+IdModule  = ESP8266:ESP-12E_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C4773EF
+Path = /5A7F34CD
+Reference = U2;
+ValeurCmp = 74HCT132;
+IdModule  = Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm;
+EndCmp
+
+EndListe
